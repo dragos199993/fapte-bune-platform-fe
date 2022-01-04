@@ -4,28 +4,36 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="27958a1e-2b3c-4750-8670-2de42486099c" name="Changes" comment="Back office deploy + update groups.">
-      <change afterPath="$PROJECT_DIR$/components/common/Divider.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/components/common/Heading.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/components/footer/Footer.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/components/navbar/DarkModeToggle.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/components/navbar/Navbar.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/components/navbar/NavbarItem.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/components/sections/AboutUs.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/components/sections/Contact.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/components/sections/HeroSection.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/components/sections/HowItWorks.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/constants/routes.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/hooks/useDarkmode.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/layouts/base.layout.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pages/auth/login.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pages/auth/register.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/images/fb.png" afterDir="false" />
+    <list default="true" id="27958a1e-2b3c-4750-8670-2de42486099c" name="Changes" comment="Initial commit.">
+      <change afterPath="$PROJECT_DIR$/components/forms/FormInput.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/components/sections/login/LoginForm.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/components/sections/register/RegisterForm.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/model/Login.dto.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/model/Register.dto.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pages/dashboard.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.eslintrc.json" beforeDir="false" afterPath="$PROJECT_DIR$/.eslintrc.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/common/Divider.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/components/common/Divider.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/common/Heading.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/components/common/Heading.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/footer/Footer.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/components/footer/Footer.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/navbar/DarkModeToggle.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/components/navbar/DarkModeToggle.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/navbar/Navbar.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/components/navbar/Navbar.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/navbar/NavbarItem.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/components/navbar/NavbarItem.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/sections/AboutUs.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/components/sections/home/AboutUs.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/sections/Contact.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/components/sections/home/Contact.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/sections/HeroSection.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/components/sections/home/HeroSection.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/sections/HowItWorks.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/components/sections/home/HowItWorks.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/constants/routes.ts" beforeDir="false" afterPath="$PROJECT_DIR$/constants/routes.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/layouts/base.layout.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/layouts/base.layout.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/next.config.js" beforeDir="false" afterPath="$PROJECT_DIR$/next.config.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/_app.js" beforeDir="false" afterPath="$PROJECT_DIR$/pages/_app.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/api/hello.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/pages/index.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/styles/globals.css" beforeDir="false" afterPath="$PROJECT_DIR$/styles/globals.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/_app.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/pages/_app.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/auth/login.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/pages/auth/login.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/auth/register.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/pages/auth/register.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/pages/index.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/postcss.config.js" beforeDir="false" afterPath="$PROJECT_DIR$/postcss.config.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tailwind.config.js" beforeDir="false" afterPath="$PROJECT_DIR$/tailwind.config.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tsconfig.json" beforeDir="false" afterPath="$PROJECT_DIR$/tsconfig.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/yarn.lock" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -64,7 +72,7 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/components/sections" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/model" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.standard" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
@@ -72,26 +80,27 @@
     <property name="node.js.selected.package.standard" value="" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="nodejs_package_manager_path" value="yarn" />
+    <property name="prettierjs.PrettierConfiguration.Package" value="$PROJECT_DIR$/node_modules/prettier" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="settings.javascript.linters.eslint" />
+    <property name="settings.editor.selected.configurable" value="settings.javascript.prettier" />
     <property name="ts.external.directory.path" value="$PROJECT_DIR$/node_modules/typescript/lib" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/model" />
       <recent name="$PROJECT_DIR$/components/sections" />
       <recent name="$PROJECT_DIR$/public/images" />
       <recent name="$PROJECT_DIR$/hooks" />
       <recent name="$PROJECT_DIR$/components/navbar" />
-      <recent name="$PROJECT_DIR$/pages/auth" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/components/sections/home" />
       <recent name="$PROJECT_DIR$/apps/web" />
       <recent name="$PROJECT_DIR$/apps/back-office/dist/projects" />
       <recent name="$PROJECT_DIR$/apps/back-office/dist" />
       <recent name="$PROJECT_DIR$/apps/back-office/src" />
-      <recent name="$PROJECT_DIR$/apps/back-office" />
     </key>
   </component>
   <component name="RunAnythingCache">
@@ -166,6 +175,7 @@
       <workItem from="1641231972941" duration="3053000" />
       <workItem from="1641235107782" duration="23000" />
       <workItem from="1641235156201" duration="8140000" />
+      <workItem from="1641309774024" duration="7736000" />
     </task>
     <task id="LOCAL-00001" summary="Updated config.">
       <created>1640253028897</created>
@@ -286,7 +296,21 @@
       <option name="project" value="LOCAL" />
       <updated>1640641679263</updated>
     </task>
-    <option name="localTasksCounter" value="18" />
+    <task id="LOCAL-00018" summary="Initial commit.">
+      <created>1641309834102</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1641309834102</updated>
+    </task>
+    <task id="LOCAL-00019" summary="Initial commit.">
+      <created>1641310062937</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1641310062937</updated>
+    </task>
+    <option name="localTasksCounter" value="20" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -312,7 +336,8 @@
     <MESSAGE value="Test ui deploy." />
     <MESSAGE value="Back office deploy." />
     <MESSAGE value="Back office deploy + update groups." />
-    <option name="LAST_COMMIT_MESSAGE" value="Back office deploy + update groups." />
+    <MESSAGE value="Initial commit." />
+    <option name="LAST_COMMIT_MESSAGE" value="Initial commit." />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />

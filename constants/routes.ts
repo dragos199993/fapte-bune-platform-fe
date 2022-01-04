@@ -4,5 +4,5 @@ export const routes = {
   HOW_IT_WORKS: '/#how-it-works',
   CONTACT: '/#contact',
   AUTH_LOGIN: '/auth/login',
-  AUTH_REGISTER: '/auth/register',
+  AUTH_REGISTER: '/auth/register'
 }

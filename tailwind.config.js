@@ -1,8 +1,8 @@
 module.exports = {
   darkMode: 'class',
   content: [
-    "./pages/**/*.{js,ts,jsx,tsx}",
-    "./components/**/*.{js,ts,jsx,tsx}",
+    './pages/**/*.{js,ts,jsx,tsx}',
+    './components/**/*.{js,ts,jsx,tsx}'
   ],
   theme: {
     colors: {
@@ -12,8 +12,8 @@ module.exports = {
       secondaryAccent: '#FF9B54',
       light: '#F2FDFF',
       dark: '#0C1713',
-      transparent: 'transparent',
+      transparent: 'transparent'
     }
   },
-  plugins: [],
+  plugins: []
 }

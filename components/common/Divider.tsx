@@ -1,13 +1,15 @@
-import React, { FC } from 'react';
+import React, { FC } from 'react'
 
 type DividerProps = {
-  className?: string;
-};
+  className?: string
+}
 
 const Divider: FC<DividerProps> = ({ className = 'w-full' }) => {
   return (
-    <hr className={ `h-1 bg-primaryAccent dark:bg-secondary rounded-full mt-8 ${ className}`}/>
-  );
-};
+    <hr
+      className={`h-1 bg-primaryAccent dark:bg-secondary rounded-full mt-8 ${className}`}
+    />
+  )
+}
 
-export default Divider;
+export default Divider
